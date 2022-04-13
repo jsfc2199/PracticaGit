@@ -1,0 +1,9 @@
+.section {
+  width: 300px;
+  background: bisque;
+}
+
+.cat_img {
+  height: auto;
+  width: 10rem;
+}
