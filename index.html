@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-
+    <!--imagen lupita font awesome-->
+    <link rel="styleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!--Fuente-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&family=Sriracha&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="styleSheet" href="styles.css" />
+    <link rel="stylesheet" href="styleHeader.css" />
+    <link rel="stylesheet" href="aside-css.css" />
     <title>Document</title>
   </head>
   <body>
@@ -14,5 +27,113 @@
       <h2>Prueba</h2>
       <p>Utilizando layout flexible</p>
     </header>
+    <nav class="nav-main">
+      <a href="index.html">
+        <img class="image" src="./img/viaje2.jpg" alt="Logo Viaje" width="80px" />
+      </a>
+      <!--Navegation-->
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="santorini.html"> SANTORINI</a>
+        </li>
+        <li>
+          <a href="bora_bora.html"> BORA BORA</a>
+        </li>
+        <li>
+          <a href="estambul.htm"> ESTAMBUL</a>
+        </li>
+      </ul>
+
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- aside -->
+    <div class="container">
+      <section class="section">
+        <div>
+          <h4>Acerca de mi</h4>
+          <p>mis humildes fotos</p>
+          <img src="./cat_caviar.jpg" alt="cat image" class="cat_img" />
+          <p>texto poco claro</p>
+        </div>
+        <div>
+          <h4>Mucho texto más</h4>
+          <p>más imagenes</p>
+          <ul>
+            <li>
+              <img src="./cat_caviar.jpg" alt="cat image" class="cat_img" />
+            </li>
+            <li>
+              <img src="./cat_caviar.jpg" alt="cat image" class="cat_img" />
+            </li>
+            <li>
+              <img src="./cat_caviar.jpg" alt="cat image" class="cat_img" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div>
+        <h1>Este es un titular</h1>
+      </div>
+      <h2>Otro titulo mas</h2>
+      <div class="imagengit">
+        <img
+          src="https://res.cloudinary.com/practicaldev/image/fetch/s--i_sb3chq--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/fk0849hvg2rt13bpqhjy.jpg"
+          alt=""
+        />
+      </div>
+      <!-- body -->
+      <div>
+        <h1>El coste de la energía y alimentos dispara la inflación al 9.8%, su nivel mas elevado desde 1985</h1>
+        <h4>Madrid - 13 de abril de 2022</h4>
+        <img src="inflacion.PNG" />
+        <div>
+          <a
+            href="https://elpais.com/economia/2022-04-13/la-inflacion-escala-en-marzo-al-98-su-nivel-mas-alto-desde-1985.html"
+          >
+            Para tener mas informacion sobre este caso visite el sitio web haciendo click aqui</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer style="background-color: #a79393; position: fixed; width: 100%; bottom: 0">
+      <div style="display: flex; justify-content: space-around">
+        <div>
+          <h2 class="footer__title">Navigation</h2>
+          <ul class="footer__content">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer__title">Navigation</h2>
+          <ul class="footer__content">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer__title">Navigation</h2>
+          <ul class="footer__content">
+            <li>nav 1</li>
+            <li>nav 2</li>
+            <li>nav 3</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
